@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="model.Person"/>
-<fullyQualifiedTypeName name="model.Student"/>
-<fullyQualifiedTypeName name="model.IPersonInt"/>
-<fullyQualifiedTypeName name="java.lang.Process"/>
 <fullyQualifiedTypeName name="letmecaculate.Calculator"/>
 <fullyQualifiedTypeName name="packagedemo.PackageDemo"/>
 <fullyQualifiedTypeName name="b2.model.Student"/>
@@ -13,8 +9,6 @@
 <fullyQualifiedTypeName name="model.MySystemManager"/>
 <fullyQualifiedTypeName name="model.MySystemManager.MyCompare"/>
 <fullyQualifiedTypeName name="javax.swing.text.AsyncBoxView.ChildLocator"/>
-<fullyQualifiedTypeName name="java.util.Set"/>
-<fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
 <fullyQualifiedTypeName name="model.Organization"/>
@@ -60,4 +54,10 @@
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
+<fullyQualifiedTypeName name="java.util.Dictionary"/>
+<fullyQualifiedTypeName name="controls.MyDictionary"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="model.DictionaryWord"/>
 </qualifiedTypeNameHistroy>
