@@ -1,0 +1,33 @@
+package controls;
+
+import java.util.Dictionary;
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+import model.DictionaryWord;
+
+public class MyDictionary {
+
+	Set<DictionaryWord> dictionaryWords;
+
+	public MyDictionary() {
+		super();
+		dictionaryWords = new LinkedHashSet<>();
+	}
+
+	public void run() {
+		
+		new Dictionary("word",	"meanings");
+		new Dictionary("bank robber","Steals money from a bank");
+		new Dictionary("burglar","Breaks into a home to steal things");
+		new Dictionary("forger","Makes an illegal copy of something");
+		new Dictionary("hacker","Breaks into a computer system");
+		new Dictionary("hijacker","Takes control of an airplane");
+		new Dictionary("kidnapper","Holds someone for ransom money");
+		new Dictionary("mugger","Attacks and steals money from someone");
+		new Dictionary("murderer","Kills another person");
+		
+		new DictionaryWord("a", meanings)
+		
+	}
+}

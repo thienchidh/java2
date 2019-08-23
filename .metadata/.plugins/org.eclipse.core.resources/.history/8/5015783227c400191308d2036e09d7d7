@@ -1,0 +1,28 @@
+package model;
+
+public class Atoms {
+	private int number;
+	private String symbol;
+	private int fullname;
+	private int weight;
+
+	public Atoms() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public boolean accept() {
+		// TODO
+		return false;
+	}
+
+	public void display() {
+
+	}
+
+	@Override
+	public String toString() {
+		return String.format("%-10s%-10s%-10s\\n", number, symbol, fullname, weight);
+	}
+
+}

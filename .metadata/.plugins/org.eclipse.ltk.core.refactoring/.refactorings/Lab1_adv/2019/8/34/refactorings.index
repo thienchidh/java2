@@ -1,0 +1,13 @@
+1566187925443	Rename field 'set'
+1566188288012	Move compilation unit
+1566188432498	Extract method 'extracted'
+1566188504828	Rename local variable 'choice'
+1566189774848	Extract method 'extracted'
+1566189794491	Extract method 'extracted'
+1566189808055	Extract method 'extracted'
+1566189817368	Rename method 'getNewOrg'
+1566190017930	Rename local variable 'birthDay'
+1566190420834	Extract local variable 'put'
+1566190655288	Extract local variable 'organization'
+1566191000154	Extract method 'extracted'
+1566226099151	Extract local variable 'instance'

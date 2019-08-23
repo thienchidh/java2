@@ -1,0 +1,10 @@
+package test;
+
+import model.MySystemManager;
+
+public class TestMySystem {
+
+	public static void main(String[] args) {
+		MySystemManager.getInstance().run();
+	}
+}

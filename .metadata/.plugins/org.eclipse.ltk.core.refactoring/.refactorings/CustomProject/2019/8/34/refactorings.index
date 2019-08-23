@@ -1,0 +1,8 @@
+1566480157213	Extract local variable 'trim'
+1566480176804	Inline local variable 'e'
+1566481649716	Extract method 'extracted'
+1566481783687	Rename local variable 's2'
+1566481788148	Rename local variable 'j'
+1566482250336	Extract local variable 'charAt'
+1566482655741	Extract local variable 'string'
+1566482674879	Extract local variable 'string'

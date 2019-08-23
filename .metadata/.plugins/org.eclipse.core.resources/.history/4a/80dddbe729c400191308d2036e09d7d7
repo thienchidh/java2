@@ -1,0 +1,13 @@
+package controls;
+
+public class MyManage {
+	public void run() {
+		while (true) {
+			try {
+
+			} catch (Exception e) {
+				System.err.println(e);
+			}
+		}
+	}
+}

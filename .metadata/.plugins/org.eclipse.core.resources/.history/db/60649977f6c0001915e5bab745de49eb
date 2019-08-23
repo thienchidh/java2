@@ -1,0 +1,39 @@
+package model;
+
+public class Student extends Person {
+	private int mark;
+	private String garde;
+
+	public Student() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Student(int mark, String garde) {
+		super();
+		this.mark = mark;
+		this.garde = garde;
+	}
+
+	public Student(String id, String name, int age) {
+		super(id, name, age);
+		// TODO Auto-generated constructor stub
+	}
+
+	public String getGarde() {
+		return garde;
+	}
+
+	public int getMark() {
+		return mark;
+	}
+
+	public void setGarde(String garde) {
+		this.garde = garde;
+	}
+
+	public void setMark(int mark) {
+		this.mark = mark;
+	}
+
+}

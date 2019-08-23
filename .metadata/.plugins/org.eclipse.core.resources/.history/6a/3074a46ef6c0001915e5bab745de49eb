@@ -1,0 +1,29 @@
+package model;
+
+public class Student extends Person {
+	private int mark;
+	private String garde;
+
+	public Student(int mark, String garde) {
+		super();
+		this.mark = mark;
+		this.garde = garde;
+	}
+
+	public int getMark() {
+		return mark;
+	}
+
+	public void setMark(int mark) {
+		this.mark = mark;
+	}
+
+	public String getGarde() {
+		return garde;
+	}
+
+	public void setGarde(String garde) {
+		this.garde = garde;
+	}
+
+}

@@ -1,0 +1,11 @@
+package test;
+
+import controls.MySystemManager;
+
+public class TestMySystem {
+
+	public static void main(String[] args) {
+		MySystemManager instance = MySystemManager.getInstance();
+		instance.run();
+	}
+}

@@ -1,0 +1,5 @@
+package b2.model;
+
+public class Student {
+
+}

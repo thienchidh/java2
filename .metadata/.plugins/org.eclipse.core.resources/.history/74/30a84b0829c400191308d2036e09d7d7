@@ -1,0 +1,43 @@
+package model;
+
+import controls.IInputOutput;
+
+public class Atoms implements IInputOutput {
+	private int number;
+	private String symbol;
+	private String fullname;
+	private float weight;
+
+	public Atoms() {
+		super();
+	}
+
+	public Atoms(int number, String symbol, String fullname, float weight) {
+		super();
+		this.number = number;
+		this.symbol = symbol;
+		this.fullname = fullname;
+		this.weight = weight;
+	}
+
+	public boolean accept() {
+		System.out.println("Enter from keyboard, continue? (Y/N)");
+		return scanner.nextLine().trim().toLowerCase().equals("Y");
+	}
+
+	@Override
+	public void input() {
+
+		System.out.println("Enter atomic number : 3");
+		System.out.println("Enter symbol : Li");
+		System.out.println("Enter full name : lithium");
+		System.out.println("Enter atomic weight : 6.941");
+
+	}
+
+	@Override
+	public String toString() {
+		return String.format("%-10d%-10s%-10s%-10f", number, symbol, fullname, weight);
+	}
+
+}

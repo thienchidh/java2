@@ -1,0 +1,17 @@
+package model;
+
+public class Organization {
+	String name;
+	int numOfEmployees;
+
+	public Organization(String name) {
+		this(name, 0);
+	}
+
+	public Organization(String name, int numOfEmployees) {
+		super();
+		this.name = name;
+		this.numOfEmployees = numOfEmployees;
+	}
+
+}

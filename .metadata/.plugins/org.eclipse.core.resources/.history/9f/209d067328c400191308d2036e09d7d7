@@ -1,0 +1,33 @@
+package model;
+
+import controls.IOutput;
+
+public class Atoms implements IOutput {
+	private int number;
+	private String symbol;
+	private String fullname;
+	private float weight;
+
+	public Atoms() {
+		super();
+	}
+
+	public Atoms(int number, String symbol, String fullname, float weight) {
+		super();
+		this.number = number;
+		this.symbol = symbol;
+		this.fullname = fullname;
+		this.weight = weight;
+	}
+
+	public boolean accept() {
+		// TODO
+		return false;
+	}
+
+	@Override
+	public String toString() {
+		return String.format("%-10d%-10s%-10s%-10f", number, symbol, fullname, weight);
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;compareTo&apos; from expression &apos;o1.getWord().compareTo(o2.getWord())&apos;&#x0D;&#x0A;- Original project: &apos;Dictionary&apos;&#x0D;&#x0A;- Variable name: &apos;compareTo&apos;&#x0D;&#x0A;- Destination method: &apos;controls.MyDictionary.MyDictionary().new Comparator() {...}.compare()&apos;&#x0D;&#x0A;- Variable expression: &apos;o1.getWord().compareTo(o2.getWord())&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;compareTo&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;controls{MyDictionary.java" name="compareTo" replace="true" selection="411 36" stamp="1566541540686" version="1.0"/>
+</session>

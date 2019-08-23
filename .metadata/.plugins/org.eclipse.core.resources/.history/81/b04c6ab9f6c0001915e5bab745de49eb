@@ -1,0 +1,72 @@
+package model;
+
+public class Student extends Person {
+	private int mark;
+	private String garde;
+
+	public Student() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Student(int mark, String garde) {
+		super();
+		this.mark = mark;
+		this.garde = garde;
+	}
+
+	public Student(String id, String name, int age) {
+		super(id, name, age);
+		// TODO Auto-generated constructor stub
+	}
+
+	public String getGarde() {
+		return garde;
+	}
+
+	public int getMark() {
+		return mark;
+	}
+
+	public void setGarde(String garde) {
+		this.garde = garde;
+	}
+
+	public void setMark(int mark) {
+		this.mark = mark;
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = super.hashCode();
+		result = prime * result + ((garde == null) ? 0 : garde.hashCode());
+		result = prime * result + mark;
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (!super.equals(obj))
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Student other = (Student) obj;
+		if (garde == null) {
+			if (other.garde != null)
+				return false;
+		} else if (!garde.equals(other.garde))
+			return false;
+		if (mark != other.mark)
+			return false;
+		return true;
+	}
+
+	@Override
+	public String toString() {
+		return "Student [mark=" + mark + ", garde=" + garde + "]";
+	}
+
+}

@@ -1,0 +1,8 @@
+package controls;
+
+public class MyDictionary {
+
+	public void run() {
+
+	}
+}

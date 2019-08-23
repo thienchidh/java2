@@ -1,0 +1,11 @@
+package packagedemo;
+
+import java.util.Scanner;
+
+public class PackageDemo {
+	public void caculate() {
+		try (Scanner sc = new Scanner(System.in)) {
+			String line = sc.nextLine();
+		}
+	}
+}

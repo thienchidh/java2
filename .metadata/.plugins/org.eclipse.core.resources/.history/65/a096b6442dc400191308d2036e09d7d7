@@ -1,0 +1,12 @@
+package ex2;
+
+import java.util.Date;
+
+public class Student {
+	private String name;
+	private String studentId;
+	private Date birthDate;
+	private String address;
+	private String major;
+	private double gpa;
+}

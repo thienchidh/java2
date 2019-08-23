@@ -1,0 +1,36 @@
+package b2.model;
+
+public class Student {
+	private static String collegeName;
+	private static int counter = 0;
+
+	public static void setCollegeName(String collegeName) {
+		Student.collegeName = collegeName;
+	}
+
+	public static void setCounter(int counter) {
+		Student.counter = counter;
+	}
+
+	public static int setRollNo() {
+		return ++counter;
+	}
+
+	private String name;
+
+	private int rollNo;
+
+	public Student(String name) {
+		super();
+		this.name = name;
+		rollNo = setRollNo();
+	}
+
+	void getStudentInfo(){
+		 System. _________________
+		 System.out.println("rollNo : " + this.rollNo);
+		 // accessing static variable
+		 System.out_________________;
+		}
+
+}

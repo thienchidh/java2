@@ -1,0 +1,23 @@
+package model;
+
+public class Molecule {
+	private String structure;
+	private String name;
+	private float weight;
+
+	public Molecule() {
+		super();
+	}
+
+	public Molecule(String structure, String name, float weight) {
+		super();
+		this.structure = structure;
+		this.name = name;
+		this.weight = weight;
+	}
+
+	@Override
+	public String toString() {
+		return String.format("%-10s%-10s%-10s", structure, name, weight);
+	}
+}

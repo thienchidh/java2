@@ -1,0 +1,46 @@
+package model;
+
+public class Book {
+	private Author author;
+	private String title;
+	private int noOfPages;
+	private boolean fiction;
+
+	public Book() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Author getAuthor() {
+		return author;
+	}
+
+	public void setAuthor(Author author) {
+		this.author = author;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public int getNoOfPages() {
+		return noOfPages;
+	}
+
+	public void setNoOfPages(int noOfPages) {
+		this.noOfPages = noOfPages;
+	}
+
+	public boolean isFiction() {
+		return fiction;
+	}
+
+	public void setFiction(boolean fiction) {
+		this.fiction = fiction;
+	}
+
+}

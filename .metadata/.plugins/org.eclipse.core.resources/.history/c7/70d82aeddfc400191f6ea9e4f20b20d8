@@ -1,0 +1,17 @@
+package test;
+
+import java.util.Scanner;
+
+import controls.EmploeeManagement;
+
+public class TestEmployeeManager {
+	public static void main(String[] args) {
+
+		try (Scanner sc = new Scanner(System.in)) {
+			String line = sc.nextLine();
+
+		}
+
+		new EmploeeManagement().run();
+	}
+}

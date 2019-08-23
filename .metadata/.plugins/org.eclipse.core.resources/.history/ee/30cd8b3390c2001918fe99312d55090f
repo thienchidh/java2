@@ -1,0 +1,9 @@
+package controls;
+
+public interface IManager {
+	void handle(int choice);
+
+	void run();
+
+	void showMenu();
+}

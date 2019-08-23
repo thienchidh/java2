@@ -1,0 +1,9 @@
+package test;
+
+import model.Atoms;
+
+public class Main {
+	public static void main(String[] args) {
+		System.out.println(new Atoms(1, "ZN", "zinn", 10f));
+	}
+}

@@ -1,0 +1,55 @@
+package controls;
+
+import java.util.List;
+import java.util.Scanner;
+
+import model.Atoms;
+import model.Molecule;
+
+public class MyManage {
+	private Scanner sc = new Scanner(System.in);
+
+	private List<Atoms> atoms;
+	private List<Molecule> molecules;
+
+	private void handle(int choice) {
+		switch (choice) {
+		case 0:
+			System.exit(0);
+		case 1:
+			break;
+		case 1:
+			break;
+		case 1:
+			break;
+		case 1:
+			break;
+		default:
+			System.out.println("???");
+			break;
+		}
+
+	}
+
+	public void run() {
+		while (true) {
+			try {
+				showMenu();
+				int choice = Integer.parseInt(sc.nextLine().trim());
+				handle(choice);
+
+			} catch (Exception e) {
+				System.err.println(e);
+			}
+		}
+	}
+
+	private void showMenu() {
+		System.out.println("1. enter ");
+		System.out.println("2. exit ");
+		System.out.println("3. display all Molecules");
+		System.out.println("4. display all Atoms");
+		System.out.print("> ");
+	}
+
+}
