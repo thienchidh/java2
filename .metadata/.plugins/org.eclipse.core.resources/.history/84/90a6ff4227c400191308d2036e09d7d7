@@ -1,7 +1,0 @@
-package controls;
-
-public interface IIO {
-	void display();
-
-	void input();
-}

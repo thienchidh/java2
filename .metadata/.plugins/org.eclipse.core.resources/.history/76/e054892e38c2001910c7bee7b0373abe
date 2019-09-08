@@ -1,7 +1,0 @@
-package test;
-
-import model.MySystemManager;
-
-public class TestMySystem {
-	MySystemManager manager = MySystemManager.getInstance();
-}

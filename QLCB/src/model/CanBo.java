@@ -7,7 +7,7 @@ public abstract class CanBo {
 	protected static final String THAC_SI = "Thạc sĩ";
 	protected static final String TIEN_SI = "Tiến sĩ";
 
-	protected static final String TRUONG_PHONG = "Cử nhân";
+	protected static final String TRUONG_PHONG = "Trưởng phòng";
 	protected static final String PHO_PHONG = "Phó phòng";
 	protected static final String NHAN_VIEN = "Nhân viên";
 
@@ -74,7 +74,16 @@ public abstract class CanBo {
 		return result;
 	}
 
-	public abstract void nhap();
+	public void nhap() {
+		System.out.println("Họ tên:");
+		hoTen = sc.nextLine().trim();
+
+		System.out.println("Hệ số lương");
+		heSoLuong = Double.parseDouble(sc.nextLine().trim());
+
+		System.out.println("Phụ cấp:");
+		phuCap = Double.parseDouble(sc.nextLine().trim());
+	}
 
 	public void setHeSoLuong(double heSoLuong) {
 		this.heSoLuong = heSoLuong;

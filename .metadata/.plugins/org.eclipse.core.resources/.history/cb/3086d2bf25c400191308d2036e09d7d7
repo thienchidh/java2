@@ -1,8 +1,0 @@
-package model;
-
-public class Molecule {
-	private String structure;
-	private String name;
-	private double weight;
-
-}

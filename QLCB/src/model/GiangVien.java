@@ -67,6 +67,8 @@ public class GiangVien extends CanBo {
 
 	@Override
 	public void nhap() {
+		super.nhap();
+
 		System.out.println("Khoa");
 		khoa = sc.nextLine().trim();
 

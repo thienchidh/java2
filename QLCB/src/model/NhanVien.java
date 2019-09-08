@@ -64,8 +64,32 @@ public class NhanVien extends CanBo {
 
 	@Override
 	public void nhap() {
-		// TODO Auto-generated method stub
+		super.nhap();
 
+		System.out.println("Phòng ban:");
+		phongBan = sc.nextLine().trim();
+
+		System.out.println("Số ngày công:");
+		soNgayCong = Integer.parseInt(sc.nextLine().trim());
+
+		System.out.println("Chức vụ:");
+		System.out.println(TRUONG_PHONG + ": 0");
+		System.out.println(PHO_PHONG + ": 1");
+		System.out.println(NHAN_VIEN + ": 2");
+
+		int x = Integer.parseInt(sc.nextLine().trim());
+		if (x == 0) {
+			chucVu = TRUONG_PHONG;
+			phuCap = 2000;
+		} else if (x == 1) {
+			chucVu = PHO_PHONG;
+			phuCap = 1000;
+		} else if (x == 2) {
+			chucVu = NHAN_VIEN;
+			phuCap = 500;
+		} else {
+			throw new RuntimeException("Chọn sai...");
+		}
 	}
 
 	public void setChucVu(String chucVu) {
@@ -89,5 +113,4 @@ public class NhanVien extends CanBo {
 	public String toString() {
 		return "NhanVien [phongBan=" + phongBan + ", soNgayCong=" + soNgayCong + ", chucVu=" + chucVu + "]";
 	}
-
 }

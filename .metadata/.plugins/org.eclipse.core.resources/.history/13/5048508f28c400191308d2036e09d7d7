@@ -1,6 +1,0 @@
-package controls;
-
-public interface IInput {
-
-	void input();
-}

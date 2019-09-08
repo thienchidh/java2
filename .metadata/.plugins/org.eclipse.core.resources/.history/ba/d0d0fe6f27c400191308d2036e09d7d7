@@ -1,9 +1,0 @@
-package controls;
-
-public interface IInputOutput {
-	default void display() {
-		System.out.println(this);
-	}
-
-	void input();
-}
