@@ -24,6 +24,7 @@ public class ShopApp {
 	}
 
 	private void addToShopingBasket() {
+		
 		shop.getStore().displayItems();
 
 		Basket basket = shop.getBasket();
